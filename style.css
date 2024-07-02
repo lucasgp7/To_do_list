@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background: #cdebb3;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+ }
+
+ header{
+    font-size: 1.5rem;
+    background: #e7e9e6;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ header, main{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ main input, main button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: e7e9e6;
+ }
+
+ main button{
+    color: #8cbe7a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+
+ main button:hover{
+    color: white;
+    background: #8cbe7a;
+ }
+
+#tarefa {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#botaoAdiciona {
+    padding: 10px 20px;
+}
+
+#lista {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.tarefa-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tarefa-item.completa {
+    text-decoration: line-through;
+}
+
+.botao-feito,
+.botao-excluir {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.botao-feito i,
+.botao-excluir i {
+    color: #333;
+}

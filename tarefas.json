@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "descricao": "Comprar pão",
+    "status": 0
+  },
+  {
+    "id": 2,
+    "descricao": "Ir à academia",
+    "status": 0
+  },
+  {
+    "id": 3,
+    "descricao": "Pagar conta",
+    "status": 0
+  }
+]
